@@ -1,4 +1,5 @@
-# import csv
+import csv
+import main_func
 import file_ops
 from pathlib import Path
 
