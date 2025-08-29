@@ -1,5 +1,5 @@
 import csv
-import file_ops
+import file_op
 from contact_main import get_name, get_age, get_phone, get_track
 from pathlib import Path
 
@@ -19,7 +19,7 @@ def main():
             particicant = {"Name": name, "Age": age, "Phone": phone, "Track": track}
 
             try:
-                file_ops.save_participant(csv_file, particicant)
+                file_op.save_participant(csv_file, particicant)
                 print("Data written to csv file!")
 
                 update_participant = input("Do you want to add another contact? Yes or No: ")
