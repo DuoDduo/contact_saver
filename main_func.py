@@ -27,6 +27,7 @@ def main():
                 if update_participant == "no":
                     print("Saved contact")
                     file_ops.load_participant(csv_file)
+                    break
             except Exception:
                 print("Unexpected error encountered while loading the contact")
         except Exception as e:

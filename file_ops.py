@@ -1,3 +1,6 @@
+import csv
+from pathlib import Path
+
 # Function to read and display participants from the CSV file
 def load_participant(csv_file):
     print("\nReading CSV file:")
