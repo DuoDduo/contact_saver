@@ -59,6 +59,7 @@ If a user enters:
 Enter your age: abc
 ```
 #Folder Structure
+```
 contact_saver/
 │
 ├── main.py
@@ -69,6 +70,7 @@ contact_saver/
 └── workspace/
     └── contacts.csv  # Auto-generated
 
+```
 # Clone the repo
 git clone https://github.com/DuoDduo/contact_saver.git
 cd contact_saver
